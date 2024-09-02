@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "wannabe": "wannabe-social",
+    "default": "wannabe-social"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
