@@ -5,12 +5,12 @@ import { getAuth } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDLpGn1wxYeNFiGDYCCjLu2I2JsKzPM1Y0",
-  authDomain: "wannabe-social.firebaseapp.com",
-  projectId: "wannabe-social",
-  storageBucket: "wannabe-social.appspot.com",
-  messagingSenderId: "483593535683",
-  appId: "1:483593535683:web:1537e5189430c4c4d3e276"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID
 };
 
 // Initialize Firebase
